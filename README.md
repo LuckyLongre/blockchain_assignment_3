@@ -21,7 +21,7 @@ To understand how to:
 echo "Hello, IPFS!" > myfile.txt
 ```
 📸  
-![Step 1](images/Step1_Create_File.png)
+![Step 1](images/Step1_Create_myfile.png)
 
 ---
 
@@ -30,7 +30,7 @@ echo "Hello, IPFS!" > myfile.txt
 ipfs add myfile.txt
 ```
 📸  
-![Step 2](images/Step2_Add_Original_File_to_IPFS.png)
+![Step 2](images/Step2_Add_myfile_to_IPFS.png)
 
 ---
 
@@ -39,7 +39,7 @@ ipfs add myfile.txt
 openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -salt -in myfile.txt -out myfile_encrypted.txt -pass pass:Lucky@123
 ```
 📸  
-![Step 3](images/Step3_Encrypt_File.png)
+![Step 3](images/Step3_Encrypt_myfile.png)
 
 ---
 
